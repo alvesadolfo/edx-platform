@@ -1,4 +1,4 @@
-FROM ubuntu:xenial as base
+FROM ubuntu:focal as base
 
 # Warning: This file is experimental.
 
