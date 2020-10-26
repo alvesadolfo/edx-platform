@@ -7,7 +7,7 @@ from django.test import TestCase
 from django.urls import reverse
 from mock import Mock, patch
 
-from rss_proxy.models import WhitelistedRssUrl
+from lms.djangoapps.rss_proxy.models import WhitelistedRssUrl
 
 
 class RssProxyViewTests(TestCase):
