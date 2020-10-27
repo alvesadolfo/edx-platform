@@ -169,7 +169,7 @@ FEATURES = {
     # .. toggle_creation_date: 2013-12-12
     # .. toggle_target_removal_date: None
     # .. toggle_warnings: This feature is not supported anymore and should have a target removal date.
-    'ENABLE_SYSADMIN_DASHBOARD': False,  # sysadmin dashboard, to see what courses are loaded, to delete & load courses
+    'ENABLE_SYSADMIN_DASHBOARD': True,  # sysadmin dashboard, to see what courses are loaded, to delete & load courses
 
     'DISABLE_LOGIN_BUTTON': False,  # used in systems where login is automatic, eg MIT SSL
 

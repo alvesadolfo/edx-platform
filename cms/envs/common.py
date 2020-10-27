@@ -222,7 +222,7 @@ FEATURES = {
     'PREVENT_CONCURRENT_LOGINS': False,
 
     # Turn off Video Upload Pipeline through Studio, by default
-    'ENABLE_VIDEO_UPLOAD_PIPELINE': False,
+    'ENABLE_VIDEO_UPLOAD_PIPELINE': True,
 
     # let students save and manage their annotations
     # for consistency in user-experience, keep the value of this feature flag
@@ -333,7 +333,7 @@ FEATURES = {
     'ENABLE_COUNTRY_ACCESS': False,
     'ENABLE_CREDIT_API': False,
     'ENABLE_OAUTH2_PROVIDER': False,
-    'ENABLE_SYSADMIN_DASHBOARD': False,
+    'ENABLE_SYSADMIN_DASHBOARD': True,
     'ENABLE_MOBILE_REST_API': False,
     'CUSTOM_COURSES_EDX': False,
     'ENABLE_READING_FROM_MULTIPLE_HISTORY_TABLES': True,
